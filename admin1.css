@@ -1,0 +1,110 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+
+}
+body{
+    background-color: yellow;
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    /* box-shadow: ; */
+}
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+    flex-wrap: wrap;
+    margin-left: 50px;
+    gap: 20px;
+}
+
+ header h1{
+   background-color: beige;
+   width: 80%;
+   text-align: center;
+   font-size: 70px;
+   transform: translateX(18%);
+   margin-top:5%;
+ }
+
+ main #navigation{
+    display: flex;
+    background-color: red;
+    /* transform: translateY(50px); */
+    width:5%;
+    margin-left:6%;
+    text-align: center;
+    height: 600px;
+    border-radius: 15px;
+ }
+
+ #navigation ul  li {
+    padding: 30px;
+    list-style: none;
+
+ }
+
+main #main-content{
+    color:white;
+    display: flex;
+    width: 100%;
+    /* height: 200px; */
+    /* transform: translateY(-700px); */
+    float: right;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.content-items-studentsInfo  {
+    background-color: blueviolet;
+    border: 6px solid black;
+    border-radius: 10%;
+    /* margin-right:40px; */
+    padding: 6px;  
+    width: 200px;
+}
+
+span{
+   text-align: center ;
+   font-size:100px;
+   overflow:hidden;
+}
+
+.upper-div{
+    display: flex;
+    gap: 10px;
+    width: 95%;
+}
+
+.lower-div {
+    width: 95%;
+}
+
+#date {
+    /* transform: translateY(-500px); */
+    background-color: red;
+    display: flex;
+    height: auto;
+    /* width:max-content; */
+    min-width: 300px;
+    border-radius: 10%;
+}
+
+#calender{
+    /* transform: translateY(-400px); */
+    background-color: blueviolet;
+    padding: 6px;
+    text-align: center;
+    /* margin: 40px 250px; */
+    height: 200px;
+    box-sizing: content-box;
+    border-radius: 10%;
+
+}
+
+
